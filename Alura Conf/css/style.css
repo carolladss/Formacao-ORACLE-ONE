@@ -33,7 +33,7 @@
     text-transform: uppercase;
 }
 
-.header .painel-main {
+.header .panel-main {
     color: white;
     text-shadow: 4px 4px 10px black;
 }
@@ -58,7 +58,7 @@
     border-radius: 8px;
 }
 
-.header .jumbotron .painel-subscribe {
+.header .jumbotron .panel-subscribe {
     margin-top: 28px;
 }
 
