@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
+   
     <title>AluraConf</title>
 </head>
 <body>
@@ -118,17 +120,23 @@
         </div>
     </section>
 
-    <section>
-        <h2>Seus dados</h2>
-        <form>
-            <label>Nome</label>
-            <input>
-
-            <label>Email</label>
-            <input>
-
-            <button>REALIZAR INSCRIÇÃO</button>
-        </form>
+    <section class="panel-form">
+        <div class="container">
+            <h2 class="title">Seus dados</h2>
+            <form>
+                <div class="field">
+                    <label>Nome</label>
+                    <input class="field-input">
+                </div>
+                <div class="field">
+                    <label>Email</label>
+                    <input class="field-input"> 
+                </div>
+                <div class="button-place">
+                    <button class="button">REALIZAR INSCRIÇÃO</button>
+                </div>
+            </form>
+        </div>
     </section>
 
 </body>
